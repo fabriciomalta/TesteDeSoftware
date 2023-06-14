@@ -12,8 +12,19 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="module" value="true"/>
 			<attribute name="add-reads" value="ExerciciojUnit=java.rmi:ExerciciojUnit=jdk.management.jfr:ExerciciojUnit=jdk.jdi:ExerciciojUnit=jdk.charsets:ExerciciojUnit=java.xml:ExerciciojUnit=jdk.xml.dom:ExerciciojUnit=java.datatransfer:ExerciciojUnit=jdk.jstatd:ExerciciojUnit=jdk.httpserver:ExerciciojUnit=jdk.jcmd:ExerciciojUnit=java.desktop:ExerciciojUnit=java.se:ExerciciojUnit=java.security.sasl:ExerciciojUnit=jdk.zipfs:ExerciciojUnit=jdk.crypto.ec:ExerciciojUnit=jdk.javadoc:ExerciciojUnit=jdk.management.agent:ExerciciojUnit=jdk.jshell:ExerciciojUnit=jdk.editpad:ExerciciojUnit=java.sql.rowset:ExerciciojUnit=jdk.jsobject:ExerciciojUnit=jdk.sctp:ExerciciojUnit=java.smartcardio:ExerciciojUnit=jdk.jlink:ExerciciojUnit=jdk.unsupported:ExerciciojUnit=java.security.jgss:ExerciciojUnit=java.compiler:ExerciciojUnit=jdk.nio.mapmode:ExerciciojUnit=jdk.dynalink:ExerciciojUnit=jdk.unsupported.desktop:ExerciciojUnit=jdk.accessibility:ExerciciojUnit=jdk.security.jgss:ExerciciojUnit=java.sql:ExerciciojUnit=jdk.hotspot.agent:ExerciciojUnit=java.logging:ExerciciojUnit=java.transaction.xa:ExerciciojUnit=java.xml.crypto:ExerciciojUnit=jdk.jfr:ExerciciojUnit=jdk.internal.vm.ci:ExerciciojUnit=jdk.crypto.cryptoki:ExerciciojUnit=jdk.net:ExerciciojUnit=jdk.random:ExerciciojUnit=java.naming:ExerciciojUnit=jdk.internal.ed:ExerciciojUnit=java.prefs:ExerciciojUnit=java.net.http:ExerciciojUnit=jdk.compiler:ExerciciojUnit=jdk.internal.opt:ExerciciojUnit=jdk.naming.rmi:ExerciciojUnit=jdk.jconsole:ExerciciojUnit=jdk.attach:ExerciciojUnit=jdk.crypto.mscapi:ExerciciojUnit=jdk.internal.le:ExerciciojUnit=java.management:ExerciciojUnit=jdk.jdwp.agent:ExerciciojUnit=jdk.internal.jvmstat:ExerciciojUnit=java.instrument:ExerciciojUnit=jdk.internal.vm.compiler:ExerciciojUnit=jdk.internal.vm.compiler.management:ExerciciojUnit=jdk.management:ExerciciojUnit=jdk.security.auth:ExerciciojUnit=java.scripting:ExerciciojUnit=jdk.jdeps:ExerciciojUnit=jdk.jartool:ExerciciojUnit=java.management.rmi:ExerciciojUnit=jdk.jpackage:ExerciciojUnit=jdk.naming.dns:ExerciciojUnit=jdk.localedata"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Fabricio/.m2/repository/org/mockito/mockito-core/3.5.15/mockito-core-3.5.15.jar" sourcepath="C:/Users/Fabricio/.m2/repository/org/mockito/mockito-core/3.5.15/mockito-core-3.5.15-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.mockito"/>
+			<attribute name="maven.artifactId" value="mockito-core"/>
+			<attribute name="maven.version" value="3.5.15"/>
+			<attribute name="maven.scope" value="test"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
