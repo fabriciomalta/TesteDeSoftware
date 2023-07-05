@@ -3,10 +3,8 @@ package exercicio08_04;
 public class Mutante2 {
 	public String definirFaixaEtaria(Pessoa p) 
 			 throws RuntimeException {
-			 //O restante igual ao original 
 		if (p.getIdade() < 0 || p.getIdade() >= 110)
 			throw new IllegalArgumentException("idade invalida");
-
 		int idade = p.getIdade();
 		String tipo = "";
 		if (idade <= 11)
@@ -17,8 +15,6 @@ public class Mutante2 {
 			tipo = "adulto";
 		else
 			tipo = "idoso";
-
 		return p.getNome() + " eh " + tipo;
 	}
-
 }
